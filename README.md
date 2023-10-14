@@ -1,3 +1,31 @@
+
+##### SharedArray error 
+we need to import SharedArray and we got this problem:
+
+Requirement already satisfied: numpy in c:\users\ahmet\anaconda3\envs\musegan\lib\site-packages (from SharedArray) (1.26 .0)
+Building wheels for collected packages: SharedArray
+Building wheel for SharedArray (pyproject.toml) ... error
+error: subprocess-exited-with-error
+
+× Building wheel for SharedArray (pyproject.toml) did not run successfully.
+│ exit code: 1
+└─ [5 lines of output]
+   running bdist_wheel
+   running build
+   running build_ext
+   building 'SharedArray' extension
+   # error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+   [End of output]
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed building wheel for SharedArray
+Failed to build SharedArray
+ERROR: Could not build wheels for SharedArray, which is required to install pyproject.toml-based projects
+
+## ToDo :
+- 1 : create folder named Datasets and import Lakh dataset there to train the model
+- 2 : create folder named target and we will use this folder to put samples of the trained model.
+
 # MuseGAN
 
 [MuseGAN](https://salu133445.github.io/musegan/) is a project on music
